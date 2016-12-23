@@ -8,18 +8,11 @@
 
 <ion-content class="card-background-page">
 
-    <img src="./assets/images/featured.jpg" alt="FEATURED" />
-
     <h2>Explore Categories</h2>
 
-    <ion-card>
-        <img src="./assets/images/sandwich.jpg" alt="Sandwich" />
-        <div class="card-title">Sandwich</div>
-    </ion-card>
-
-    <ion-card>
-        <img src="./assets/images/pizza.jpg" alt="Pizza" />
-        <div class="card-title">Pizza</div>
+    <ion-card *ngFor="let category of categories" (click)="navigate(category)">
+        <img src="{{ category.image }}" alt="{{ category.title }}" />
+        <div class="card-title">{{ category.title }}</div>
     </ion-card>
 
 </ion-content>
