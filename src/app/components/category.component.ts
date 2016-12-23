@@ -1,10 +1,5 @@
-import { Component } from '@angular/core';
-
-@Component({
-    selector: 'category',
-    templateUrl: 'category.html'
-})
 export class FoodCategory {
-    title = 'Sandwich';
-    image = './assets/images/sandwich.jpg';
+	id: number;
+	title: string;
+	image: string;
 }

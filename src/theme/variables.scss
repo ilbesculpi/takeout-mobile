@@ -80,3 +80,32 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+
+
+.card-background-page {
+
+  ion-card {
+    position: relative;
+  }
+
+  .card-title {
+    position: absolute;
+    bottom: 0;
+    font-size: 1.8em;
+    width: 100%;
+    font-weight: normal;
+    color: #fff;
+	background-color: #000;
+	opacity: 0.8;
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #fff;
+  }
+
+}
