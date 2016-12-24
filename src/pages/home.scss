@@ -11,7 +11,7 @@ home {
         font-size: 1.8em;
         width: 100%;
         font-weight: normal;
-        color: #fff;
+        color: color($colors, 'light');
         background-color: #000;
         opacity: 0.8;
     }
@@ -21,7 +21,7 @@ home {
         position: absolute;
         top: 52%;
         width: 100%;
-        color: #fff;
+        color: color($colors, 'light');
     }
 
 }

@@ -5,5 +5,6 @@ export class Product {
 	image: string;
     likes: number;
 	price: number;
-	
+	description: string;
+
 }

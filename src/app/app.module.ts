@@ -3,13 +3,14 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { TakeoutApp } from './app.component';
 import { HomePage } from '../pages/home';
 import { CategoryPage } from '../pages/category';
-
+import { ProductPage } from '../pages/product';
 
 @NgModule({
     declarations: [
         TakeoutApp,
         HomePage,
-        CategoryPage
+        CategoryPage,
+        ProductPage
     ],
     imports: [
         IonicModule.forRoot(TakeoutApp)
@@ -18,7 +19,8 @@ import { CategoryPage } from '../pages/category';
     entryComponents: [
         TakeoutApp,
         HomePage,
-        CategoryPage
+        CategoryPage,
+        ProductPage
     ],
     providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
