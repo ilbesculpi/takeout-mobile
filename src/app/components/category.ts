@@ -1,6 +1,8 @@
-export class FoodCategory {
+import { Product } from './product';
+
+export class Category {
 	id: number;
 	title: string;
 	image: string;
-	foods: string[];
+	products: Product[];
 }

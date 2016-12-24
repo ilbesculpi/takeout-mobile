@@ -1,27 +1,27 @@
 
 home {
 
-  ion-card {
-    position: relative;
-  }
+    ion-card {
+        position: relative;
+    }
 
-  .card-title {
-    position: absolute;
-    bottom: 0;
-    font-size: 1.8em;
-    width: 100%;
-    font-weight: normal;
-    color: #fff;
-	background-color: #000;
-	opacity: 0.8;
-  }
+    .card-title {
+        position: absolute;
+        bottom: 0;
+        font-size: 1.8em;
+        width: 100%;
+        font-weight: normal;
+        color: #fff;
+        background-color: #000;
+        opacity: 0.8;
+    }
 
-  .card-subtitle {
-    font-size: 1.0em;
-    position: absolute;
-    top: 52%;
-    width: 100%;
-    color: #fff;
-  }
+    .card-subtitle {
+        font-size: 1.0em;
+        position: absolute;
+        top: 52%;
+        width: 100%;
+        color: #fff;
+    }
 
 }
