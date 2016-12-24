@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+
+    <ion-list>
+		<ion-item *ngFor="let food of category.foods">
+			<ion-thumbnail item-left>
+				<img src="./assets/images/lunch.jpg" alt="Lunch" />
+			</ion-thumbnail>
+			<h2>{{ food }}</h2>
+			<p>$4.99</p>
+		</ion-item>
+	</ion-list>
+
+</ion-content>

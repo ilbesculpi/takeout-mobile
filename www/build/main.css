@@ -4758,29 +4758,6 @@
   src: local("Noto Sans Bold"), local("Noto-Sans-Bold"), url("../assets/fonts/noto-sans-bold.ttf") format("truetype");
 }
 
-.card-background-page ion-card {
-  position: relative;
-}
-
-.card-background-page .card-title {
-  position: absolute;
-  bottom: 0;
-  font-size: 1.8em;
-  width: 100%;
-  font-weight: normal;
-  color: #fff;
-  background-color: #000;
-  opacity: 0.8;
-}
-
-.card-background-page .card-subtitle {
-  font-size: 1.0em;
-  position: absolute;
-  top: 52%;
-  width: 100%;
-  color: #fff;
-}
-
 ion-action-sheet {
   position: absolute;
   top: 0;
@@ -32886,4 +32863,27 @@ sub {
   .wp .modal-wrapper > .ion-page > ion-header > ion-content.statusbar-padding:first-child[padding-top] .scroll-content {
     padding-top: calc(16px + 20px);
   }
+}
+
+home ion-card {
+  position: relative;
+}
+
+home .card-title {
+  position: absolute;
+  bottom: 0;
+  font-size: 1.8em;
+  width: 100%;
+  font-weight: normal;
+  color: #fff;
+  background-color: #000;
+  opacity: 0.8;
+}
+
+home .card-subtitle {
+  font-size: 1.0em;
+  position: absolute;
+  top: 52%;
+  width: 100%;
+  color: #fff;
 }
