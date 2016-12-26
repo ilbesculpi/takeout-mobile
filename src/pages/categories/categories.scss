@@ -1,0 +1,15 @@
+.category ion-item {
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .price {
+        color: color($colors, 'price');
+    }
+
+    .likes {
+        color: color($colors, 'secondaryText');
+    }
+
+}

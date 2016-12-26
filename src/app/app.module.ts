@@ -1,9 +1,9 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { TakeoutApp } from './app.component';
-import { HomePage } from '../pages/home';
-import { CategoryPage } from '../pages/category';
-import { ProductPage } from '../pages/product';
+import { HomePage } from '../pages/home/home';
+import { CategoryPage } from '../pages/categories/categories';
+import { ProductPage } from '../pages/products/products';
 
 @NgModule({
     declarations: [

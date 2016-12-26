@@ -1,0 +1,30 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>{{ category.title }}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="category">
+
+    <ion-list>
+		<ion-item *ngFor="let product of category.products" (click)="navigate(category, product)">
+			<ion-thumbnail item-left>
+				<img src="./assets/images/food.jpeg" alt="Lunch" />
+			</ion-thumbnail>
+			<h2>{{ product.title }}</h2>
+            <ion-row>
+                <ion-col>
+                    <div class="price">{{ formatPrice(product.price, '$') }}</div>
+                </ion-col>
+                <ion-col>
+                    <div class="likes" text-right>
+                        <ion-icon name="heart"></ion-icon>
+                        {{ product.likes }}
+                    </div>
+                </ion-col>
+            </ion-row>
+
+		</ion-item>
+	</ion-list>
+
+</ion-content>
