@@ -6,7 +6,7 @@
 
 <ion-content class="product" no-padding>
 
-    <ion-card>
+    <ion-card no-padding>
         <img src="{{ category.image }}" alt="{{ category.title }}" />
         <div class="info" padding>
             <h2>{{ product.title }}</h2>
@@ -19,5 +19,10 @@
             {{ product.description }}
         </ion-card-content>
     </ion-card>
+
+    <button ion-button color="secondary" block>
+        <ion-icon name="cart"></ion-icon>
+        ADD TO CART
+    </button>
 
 </ion-content>
