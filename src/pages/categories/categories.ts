@@ -21,6 +21,7 @@ export class CategoryPage {
 		}
 
 		navigate(category:Category, product:Product) {
+		//el set push lo coloca como por arriba
 			this.navCtrl.push(ProductPage, {
 				category: category,
 				product: product
